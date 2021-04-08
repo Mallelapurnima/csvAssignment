@@ -1,0 +1,21 @@
+CREATE TABLE `tbl_csvmsg` (
+  `region`  varchar(255) NOT NULL,
+  `country` varchar(255) NOT NULL,
+   `ItemType` varchar(255) NOT NULL,
+    `SalesChannel` varchar(255) NOT NULL ,
+    `orderPriority` varchar(255) NOT NULL,
+    'orderDate` datetime NOT NULL,
+    `orderId` bigint(11) NOT NULL,
+    `shipDate` datatime NOT NULL
+    `unitSold` bigint(11) NOT NULL,
+    `unitPrice` bigint(11) NOT NULL,
+    `unitCost` float(10,7)  NOT NULL
+    `totalRevene`float(10,7) NOT NULL
+    `totalCost` float(10,7) NOT NULL
+    `totalProfit` float(10,7) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+
+
+INSERT INTO Csv (`region`, `country`, `ItemType`, `salesChannel`, `orderPriority`,`orderDate`,`orderId`,`shipDate`,`unitsSold`,`unitPrice`,`unitCost`,`totalRevene`,`totalCost`,`totalProfit') VALUES
+(1, 'Australia', 'palau', 'office Supply', 'online','h','3/6/2016',;517073523','3/26/2016','2401','651.21','524.96','1563555.21','1260428.96','303126.25');
